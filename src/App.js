@@ -1,12 +1,11 @@
 import logo from './logo.svg';
+import SideBar from './components/SideBar';
 import './App.css';
 
 function App() {
   return (
-    <div className='bg-slate-300'>
-      <p className='font-bold underline text-green-900'>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
+    <div className='flex '>
+      <SideBar />
     </div>
   );
 }
